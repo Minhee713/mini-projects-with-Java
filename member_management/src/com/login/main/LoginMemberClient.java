@@ -7,8 +7,8 @@ import com.login.domain.LoginMember;
 public class LoginMemberClient{
 	public static void main(String[] args) {
 		ExtractInfo exInfo = new ExtractInfo();
-		exInfo.readFileMember();
-		
+		exInfo.readFileMember();		
+
 		LoginStart ls = new LoginStart();
 		ls.loginPrint();
 		

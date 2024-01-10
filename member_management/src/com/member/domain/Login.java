@@ -25,7 +25,7 @@ public class Login extends MemberInfo {
 				if (!inputPwd.equals(adminPassword)) {
 					System.err.println("비밀번호가 틀렸습니다.");
 					wrongPwdCnt++;
-					if (wrongPwdCnt == 3) {
+					if (wrongPwdCnt >= 3) {
 						System.err.println("로그인 횟수 초과\n");
 						break;
 					}
